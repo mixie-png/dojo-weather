@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+
+/* NAV BAR */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #9fc5f8;
+    color: #ffffff;
+    height: 70px;
+    padding: 0 20vw;
+}
+
+.city {
+    cursor: pointer;
+}
+
+.right-head {
+    display: flex;
+    gap: 20px;
+}
+
+/* CONTAINER */
+.container {
+    padding: 0 20vw;
+}
+
+/* Top Section */
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 2px solid #000000;
+    margin: 20px 0;
+}
+
+/* Bottom Section */
+.bottom {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Weather */
+.day {
+    background-color: #eeeeee;
+    padding: 25px;
+    text-align: center;
+}
+
+.high-temp {
+    color: #cf2a27;
+    font-weight: bold;
+}
+
+.low-temp {
+    color: #2b78e4;
+    font-weight: bold;
+}
+
+.temps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-img {
+    border-radius: 50%;
+    height: 150px;
+}
+
+
+/* Pop-Up */
+.pop-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #eeeeee;
+    border: 3px solid #000000;
+    padding: 20px;
+
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+a {
+    color: #085395;
+}
+
+.accept-btn {
+    background-color: #9fc5f8;
+    border: 3px solid #000000;
+    box-shadow: 2px 2px #000000;
+    height: 30px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.cookie {
+    margin-right: 16px;
+}
+
+.message {
+    width: 400px;
+}
+
+.top-message {
+    font-weight: bold;
+}
